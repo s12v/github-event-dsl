@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rack'
 gem 'foreman'
+gem 'puma'
 gem 'sinatra'
 gem 'slack-poster'
 
