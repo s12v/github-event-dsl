@@ -5,7 +5,7 @@ Extensible webhook for processing GitHub events based on rules in a simple Ruby 
 Example:
 ```ruby
 rule do
-  on :repo, 's12v/sandbox'
+  on :repo, 's12v/github-event-router'
   on :label, 'question'
   action :slack, to: '#test', template: 'question'
 end
