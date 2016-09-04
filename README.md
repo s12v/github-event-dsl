@@ -1,4 +1,4 @@
-# GitHub events DSL
+# GitHub events router DSL
 
 Extensible webhook for processing GitHub events based on custom DSL.
 
@@ -8,7 +8,7 @@ Examples:
 GitHub.rules do
   rule do
     on :repo, 's12v/sandbox'
-    on :label, 'question'
+    on :label, 'Please review'
     action :slack, to: '#test', template: 'please_review'
   end
 
@@ -17,5 +17,5 @@ GitHub.rules do
     on :release
     action :slack, to: '#test', template: 'new_release'
   end
-end
 ```
+
