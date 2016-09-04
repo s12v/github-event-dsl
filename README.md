@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/s12v/github-event-router.svg?branch=master)](https://travis-ci.org/s12v/github-event-router)
+
 # GitHub events router DSL
 
 Extensible webhook for processing GitHub events based on custom DSL.
